@@ -1,0 +1,53 @@
+body, html {
+	height:100%;
+}
+
+body {
+	background: url(../img/flower.jpg) no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	padding: 0;
+	margin:0;
+}
+main {
+	position: relative;
+	width: 100%;
+}
+
+#topheader {
+	position: fixed;
+	background:#555;
+	height: 5%;
+	padding: 1%;
+	border: 10px ridge #999;
+	width: 100%;
+	z-index: 99;
+}
+
+#topheader h1 {
+	font-family:arial;
+}
+
+.box {
+	width: 20%;
+	max-width: 200px;
+	padding: 10px;
+	margin: 20px;
+	background: #333;
+	position: relative;
+	float: right;
+}
+
+#innerbox {
+	width: 50%;
+	background: #000;
+	position: absolute;
+	right: 0;
+}
+
+.imagetext {
+	font-size: 50px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+}
